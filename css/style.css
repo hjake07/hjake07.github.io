@@ -106,3 +106,22 @@ margin: 0 auto;
     width: 64%;
     margin: 0 auto;
 }
+.whereimg {
+    width: 100%;
+}
+.whereimgdiv {
+    display: flex;
+    object-fit: cover;
+    flex-direction: row;
+}
+.wheretext {
+    width: 64%;
+    margin: 0 auto;
+}
+.wherecontent {
+    display: flex;
+    flex-direction: column;
+}
+.whereimgtxtcontainer {
+    width: 20%;
+}
