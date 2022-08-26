@@ -1,13 +1,88 @@
 ul {
-    
+    align-self: center;
     list-style-type: none;
+    margin-right: 50px;
 }
 li {
+    margin: 5px;
+    justify-content: flex-end;
     display: inline;
+    
 }
 a {
     
 }
+body {
+    font-family: sans-serif;
+}
+.header {
+    margin-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(232, 153, 35);
+}
 .logoname {
+    flex-direction: column;
+    margin-left: 50px;
+}
+#heroimg {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
     
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.heroimgdiv {
+  display: flex;
+  position: relative;
+}
+.imgdivp {
+    left: 40%;
+    padding: 5px;
+    position: absolute;
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+}
+.foodideas {
+    margin: 15px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    
+}
+.foodideaimg, .healthyimg  {
+    height: 300px;
+   width: 100%;
+   object-fit: cover;
+}
+.ideacontainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.ideatext {
+width: 70%;
+margin: 0 auto;
+}
+.healthycontainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgb(203, 203, 219);
+}
+.healthyimgcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.healthyimgdiv {
+    text-align: center;
+    width: 20%;
 }
