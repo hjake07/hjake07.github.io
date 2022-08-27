@@ -8,17 +8,31 @@ li {
     justify-content: flex-end;
     display: inline;
 }
+a {
+    text-decoration: none;
+    color: gray;
+}
 p {
     font-size: 20px;
 }
 body {
+    background-image: url("../images/bgroundimg.jpg");
     font-family: sans-serif;
 }
-.header {
+/* 
+        fixed navbar
+#stickyhead {
+position: fixed;
+width: 100%;
+z-index: 5;
+} */
+.headerfooter {
+    height: 106px;
     margin-bottom: 5px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(232, 153, 35);
 }
 .logoname {
@@ -26,6 +40,7 @@ body {
     margin-left: 50px;
 }
 #heroimg {
+    /* margin-top: 110px; */
     height: 500px;
     width: 100%;
     object-fit: cover;
@@ -33,18 +48,22 @@ body {
     
 }
 .container{
+    background-color: white;
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
-.heroimgdiv {
+.heroimgdiv{
   display: flex;
   position: relative;
 }
 .imgdivp {
-    left: 40%;
-    padding: 5px;
-    position: absolute;
+    width:fit-content;
+    left: 35%;
+    right: 30%;
     align-self: flex-end;
+    position: absolute;
+    padding: 5px;
     font-size: 28px;
     font-weight: bold;
     background-color: white;
@@ -56,7 +75,7 @@ body {
     flex-direction: column;
     
 }
-.foodideaimg, .healthyimg  {
+.foodideaimg, .healthyimg {
     height: 250px;
    width: 100%;
    object-fit: cover;
@@ -73,7 +92,7 @@ width: 67%;
 margin: 0 auto;
 }
 .ideatextarea {
-
+/* nothing yet */
 }
 .healthycontainer {
     display: flex;
@@ -107,21 +126,60 @@ margin: 0 auto;
     margin: 0 auto;
 }
 .whereimg {
-    width: 100%;
+    object-fit: cover;
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
 }
 .whereimgdiv {
+    height: 300px;
     display: flex;
     object-fit: cover;
     flex-direction: row;
+    justify-content: center;
+
 }
 .wheretext {
     width: 64%;
     margin: 0 auto;
 }
 .wherecontent {
+    padding: 20px 0 100px 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 .whereimgtxtcontainer {
+    text-align: center;
     width: 20%;
+    margin: 20px;
+}
+.whereimgouter {
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(203, 203, 219);
+}
+.footerpar {
+    margin: 0 50px;
+}
+.bengalimgdiv{
+    display: flex;
+    position: relative;
+}
+.bengalimg {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+h3 {
+    font-size: 32px;
+}
+.graybox {
+    background-color: rgb(203, 203, 219);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

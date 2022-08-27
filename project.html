@@ -6,15 +6,15 @@
     </head>
     <body>
         <div class="container">
-            <header class="header">
+            <header id= "stickyhead"class="headerfooter">
                 <div class="logoname">
                     <img src="../images/ryparis-logo.png">
                 </div>
                 <ul>
-                    <li><a>Popular Recipes</a></li>
-                    <li><a>What's New</a></li>
-                    <li><a>Catergories</a></li>
-                    <li><a>Meal Ideas</a></li>
+                    <li><a href="recipe.html">Popular Recipes</a></li>
+                    <li><a href="#healthyrecipes">What's New</a></li>
+                    <li><a href="#catergories">Catergories</a></li>
+                    <li><a href="#whereeat">Meal Ideas</a></li>
                 </ul>
             </header>
             <div class="heroimgdiv">
@@ -22,7 +22,7 @@
                 <img src="../images/hero-image.jpg" id="heroimg">
             </div>
             <div class="ideatext">
-                <h2 class="ideatextarea">Everyday Catergories</h2>
+                <h2  id ="catergories" class="ideatextarea">Everyday Catergories</h2>
                 <p class="ideatextarea">Everyday Food has developed recipes with the home cook in mind.
                 These delicious dishes featured on "RY Paris" call for simple
                 ingredients that you already have in your pantry or can easily
@@ -37,7 +37,7 @@
             
                 <div class="healthycontainer">
                     <div class="healthytext">
-                        <h2>Healthy Recipes of the Week</h2>
+                        <h2  id="healthyrecipes" >Healthy Recipes of the Week</h2>
                         <p>This weeks top award winners to critically-acclaimed recipe gems, check out these original recipes for home cook and
                             professional chefs around the country.
                         </p>
@@ -52,7 +52,7 @@
                 <div class="wherecontainer">
                     <div class="wherecontent">
                         <div class="wheretext">
-                            <h2>Where to Eat</h2>
+                            <h2 id="whereeat"> Where to Eat</h2>
                             <p>This is not the aspirational fluff on Instagram wall neon; it's fact. Recent surveys have shown that a majority
                                 of travelers consider food first when planning a trip, even ahead of where they sleep. Add to this that people
                                 are also traveling more than before - earthlings logged a record-breaking 1.4 billion international trips last
@@ -63,13 +63,23 @@
                                 for something new to fill our bellies, our passports, and our feeds.
                             </p>
                         </div>
-                        <div class="whereimgdiv">
-                            <div class="whereimgtxtcontainer"><img class="whereimg" src="../images/burger.jpg"><p>Best Sandwiches in America</p></div>
-                            <div class="whereimgtxtcontainer"><img class="whereimg" src="../images/pizza.jpeg"><p>50 Sttates of Pizza Slices</p></div>
-                            <div class="whereimgtxtcontainer"><img class="whereimg" src=""></div>
+                        <div  class="whereimgdiv">
+                            <div class="whereimgtxtcontainer"><div class="whereimgouter"><img class="whereimg" src="../images/burger.jpg"></div><p>Best Sandwiches in America</p></div>
+                            <div class="whereimgtxtcontainer"><div class="whereimgouter"><img class="whereimg" src="../images/pizza.jpeg"></div><p>50 States of Pizza Slices</p></div>
+                            <div class="whereimgtxtcontainer"><div class="whereimgouter"><img class="whereimg" src="../images/lobstersoup.jpg"></div><p>City Guides</p></div>
                         </div>
                     </div>
                 </div>
         </div>
+        <footer class="headerfooter">
+            <p class="footerpar">&copy 2020 By Paris</p>
+            <ul>
+                <li><a href ="">Site Map</a></li>
+                <li><a href ="">Privacty Policy</a></li>
+                <li><a href ="">About</a></li>
+                <li><a href ="">Advertise</a></li>
+                <li><a href ="">Help</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
