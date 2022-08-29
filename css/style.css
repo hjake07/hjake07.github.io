@@ -224,13 +224,25 @@ i {
     padding: 10px;
 }
 .bengalcontainer {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 #grayboxbengal {
     text-align: center;
 }
 .finaltext {
+    justify-content: space-between;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+.numberlist {
+    margin: 20px;
+    width: 50%;
+
+}
+.ingredients {
+    width: 100%;
+}
+.directions {
+    margin-left: 200px;
 }
