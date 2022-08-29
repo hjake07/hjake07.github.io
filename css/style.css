@@ -1,9 +1,9 @@
-ul {
+.nav {
     align-self: center;
     list-style-type: none;
     margin-right: 50px;
 }
-li {
+.navobject {
     margin: 5px;
     justify-content: flex-end;
     display: inline;
@@ -59,7 +59,7 @@ z-index: 5;
 }
 .imgdivp {
     width:fit-content;
-    left: 35%;
+    left: 40%;
     right: 30%;
     align-self: flex-end;
     position: absolute;
@@ -90,9 +90,6 @@ z-index: 5;
 .ideatext {
 width: 67%;
 margin: 0 auto;
-}
-.ideatextarea {
-/* nothing yet */
 }
 .healthycontainer {
     display: flex;
@@ -172,7 +169,7 @@ margin: 0 auto;
 .bengalimg {
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
 h3 {
     font-size: 32px;
@@ -182,4 +179,58 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.prep {
+    align-self: flex-end;
+}
+.yield {
+    align-self: center;
+    margin-top: 40px;
+}
+.checked {
+    color: rgb(255, 123, 0);
+    align-self: center;
+}
+i {
+    align-self: center;
+    height: 20px;
+    margin-left: 10px;
+    color: gray;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+}
+.bengalh1 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.bengalinfo {
+    display: flex;
+    flex-direction: column;
+}
+.bengalinfotop {
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+}
+.bengalinfop {
+    margin: 0 10px;
+}
+.button {
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bengalcontainer {
+    width: 70%;
+    margin: 0 auto;
+}
+#grayboxbengal {
+    text-align: center;
+}
+.finaltext {
+    display: flex;
+    flex-direction: column;
 }
