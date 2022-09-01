@@ -264,10 +264,39 @@ iframe {
     .finaltext {
         flex-wrap: wrap;
     }
+    .foodideas {
+        margin: 0;
+    }
+    .healthyimgdiv {
+        margin: 0;
+        width: fit-content;
+    }
+    .healthycontainer {
+        margin-bottom: 100px;
+    }
+    .whereimgdiv, .whereimgouter {
+        margin: 0;
+        width: fit-content;
+    }
+
 }
 @media only screen and (max-width: 600px) {
     .directions {
         width: fit-content;
         margin-left: 0px;
+    }
+    .foodideas {
+        margin: 0;
+    }
+    .healthyimgdiv {
+        margin: 0;
+        width: fit-content;
+    }
+    .healthycontainer {
+        margin-bottom: 100px;
+    }
+    .whereimgdiv, .whereimgouter {
+        margin: 0;
+        width: fit-content;
     }
 }
