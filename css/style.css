@@ -260,3 +260,14 @@ iframe {
     width: 560px;
     height: 315px;
 }
+@media only screen and (max-width: 900px) {
+    .finaltext {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .directions {
+        width: fit-content;
+        margin-left: 0px;
+    }
+}
